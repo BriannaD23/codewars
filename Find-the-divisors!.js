@@ -16,5 +16,5 @@ function divisors(integer) {
     
 }
 
-// you ranked up to 7kyu
+// you ranked up to 7kyu on codwars 
   
