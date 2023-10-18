@@ -6,4 +6,6 @@ function findOdd(A) {
     }
   
     return result;
-  }
+}
+
+//when you XOR all the numbers in the list, the result will be the odd number because all the paired numbers will cancel each other out and become 0, leaving only the odd number.
