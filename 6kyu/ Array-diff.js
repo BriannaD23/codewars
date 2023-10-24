@@ -10,3 +10,8 @@ function arrayDiff(a, b) {
   const arrayB = [2, 5];
   const result = arrayDiff(arrayA, arrayB);
   console.log(result); // Output: [1, 3, 4]
+
+//second answer 
+// function array_diff(a, b) {
+//   return a.filter(e => !b.includes(e));
+// }
