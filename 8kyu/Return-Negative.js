@@ -8,3 +8,8 @@ function makeNegative(num) {
       return -num; // If it's positive or zero, return its negative counterpart
     }
 }
+
+
+// function makeNegative(num) {
+//     return num < 0 ? num : -num;
+// }
