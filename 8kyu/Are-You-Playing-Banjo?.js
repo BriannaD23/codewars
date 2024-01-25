@@ -16,4 +16,17 @@ function areYouPlayingBanjo(name) {
 //   } else {
 //     return name + ' does not play banjo';
 //   }
-// }f
+// }
+
+
+/* another solution
+
+function areYouPlayingBanjo(name) {
+  if (name.charAt(0).toLowerCase() === 'r') {
+    return `${name} plays the banjo`;
+  } else {
+    return `${name} does not play the banjo`;
+  }
+}
+
+*/
