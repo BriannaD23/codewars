@@ -5,5 +5,5 @@ function disemvowel(str) {
     return str.split('').filter(char => !vowel.includes(char.toLowerCase())).join('');
     
     
-  }
+}
   
