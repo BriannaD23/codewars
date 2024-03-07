@@ -2,19 +2,11 @@
 
 function pigIt(str) {
   var arrayWord = str.split(' ');
-
   return arrayWord.map(function(word) {
-    // Check if the word is a letter
-    if (word.match(/[a-zA-Z]/)) {
-      var firstLetter = word.charAt(0);
-      return word.slice(1) + firstLetter + 'ay';
-    } else {
-      // If the word contains non-letter characters, leave them unchanged
-      return word;
-    }
+    var firstLetter = word.charAt(0);
+    return word.slice(1) + firstLetter + 'ay';
   }).join(' ');
 }
-
 
 // another solution
 
