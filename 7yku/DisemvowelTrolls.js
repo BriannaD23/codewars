@@ -7,8 +7,6 @@ function disemvowel(str) {
     
 }
 /*
-another solution
-
 function disemvowel(str) {
   let vowels = ['a', 'e', 'i', 'o', 'u'];
   let result = '';
@@ -21,7 +19,6 @@ function disemvowel(str) {
 
   return result;
 }
-
 
 
 */
