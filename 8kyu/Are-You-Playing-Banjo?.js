@@ -7,7 +7,7 @@ function areYouPlayingBanjo(name) {
     } else {
       return name + ' does not play banjo';
     }
-}
+  }
 
 // second solution
 // function areYouPlayingBanjo(name) {
