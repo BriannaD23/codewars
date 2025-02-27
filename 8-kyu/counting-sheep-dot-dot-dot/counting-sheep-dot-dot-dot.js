@@ -1,7 +1,8 @@
 function countSheeps(sheep) {
-  let count = 0
-  for( let s of sheep){
-    if(s ===true) count++
+  let count = 0;
+​
+  for(let sheeps of sheep){
+    if(sheeps  === true) count++
   }
-  return count
+ return count
 }
