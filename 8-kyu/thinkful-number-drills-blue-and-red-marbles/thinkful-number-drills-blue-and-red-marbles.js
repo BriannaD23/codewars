@@ -4,14 +4,9 @@ function guessBlue(blueStart, redStart, bluePulled, redPulled) {
 ​
    let remainingBlue =  blueStart - bluePulled;
    let remainingRed = redStart - redPulled;
-   let remainingMarbles  =  remainingBlue + remainingRed;
 ​
-  console.log(remainingBlue)
- console.log(remainingRed)
-  console.log(remainingMarbles )
+  let chancesOfBlue = remainingBlue/ (remainingBlue + remainingRed);
 ​
-  let chancesOfBlue = remainingBlue/ remainingMarbles
-   console.log(chancesOfBlue)
 ​
   return chancesOfBlue
 ​
