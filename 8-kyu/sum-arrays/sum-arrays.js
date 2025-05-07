@@ -1,8 +1,3 @@
 function sum (numbers) {
-  let runningSum = 0;
-  for(let num of numbers){
-    runningSum += num;
-  
-  }
-  return runningSum
+  return numbers.reduce((a,b) => a + b, 0)
 }
