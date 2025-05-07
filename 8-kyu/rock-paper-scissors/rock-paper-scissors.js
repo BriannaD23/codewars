@@ -1,9 +1,10 @@
 const rps = (p1, p2) => {
- if(p1 === p2) return "Draw!"
- let rules= {
+ if(p1 === p2) return "Draw!";
+​
+ let rules = {
    scissors : "paper",
-   paper  : "rock",
-   rock : "scissors"
+   rock:"scissors",
+   paper: "rock"
  }
  
  if(p2 === rules[p1]){
@@ -12,6 +13,3 @@ const rps = (p1, p2) => {
    return "Player 2 won!"
  }
 };
-​
-​
-​
